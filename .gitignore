@@ -172,3 +172,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# # InfluxDB secrets - do not commit
+# secrets/
+# *.env
+# .env.*
+
+# # Docker volumes data
+# volumes/
+
+# # SSL certificates (if using real ones)
+# certs/*.pem
+# certs/*.p12
