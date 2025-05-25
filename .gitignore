@@ -175,8 +175,8 @@ cython_debug/
 
 # InfluxDB secrets - do not commit
 # secrets/
-*.env
-.env.*
+# *.env
+# .env.*
 
 # Docker volumes data
 volumes/
