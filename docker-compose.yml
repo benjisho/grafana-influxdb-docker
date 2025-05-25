@@ -59,11 +59,11 @@ services:
 
 secrets:
   influxdb2-admin-username:
-    file: ./secrets/influxdb2-admin-username
+    file: ./secrets/.env.influxdb2-admin-username
   influxdb2-admin-password:
-    file: ./secrets/influxdb2-admin-password
+    file: ./secrets/.env.influxdb2-admin-password
   influxdb2-admin-token:
-    file: ./secrets/influxdb2-admin-token
+    file: ./secrets/.env.influxdb2-admin-token
 
 volumes:
   grafana-storage: {}
