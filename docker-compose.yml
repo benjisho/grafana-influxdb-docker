@@ -1,3 +1,7 @@
+# Reference for influxdb2: https://docs.influxdata.com/influxdb/v2/install/use-docker-compose/
+# Reference for Grafana: https://grafana.com/docs/grafana/latest/setup-grafana/installation/docker/
+# Reference for Nginx: https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
+
 services:
   grafana:
     image: grafana/grafana:12.0.1-ubuntu
@@ -35,7 +39,6 @@ services:
       - type: volume
         source: influxdb2-config
         target: /etc/influxdb2
-
   # Uncomment the following lines to enable Nginx as a reverse proxy
   # nginx:
   #     image: nginx:1.27.5-bookworm
