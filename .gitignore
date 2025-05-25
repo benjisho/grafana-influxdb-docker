@@ -174,7 +174,7 @@ cython_debug/
 .pypirc
 
 # InfluxDB secrets - do not commit
-secrets/
+# secrets/
 *.env
 .env.*
 
