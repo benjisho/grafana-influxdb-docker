@@ -1,6 +1,4 @@
-# grafana-influxdb-docker
-
-# Grafana + InfluxDB Monitoring Stack
+# Grafana + InfluxDB Monitoring Docker-based Stack
 
 ## Table of Contents
 1. [Introduction](#introduction)
